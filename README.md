@@ -52,7 +52,7 @@
 ## 🔎 Mendukung Pencarian Sebaris
 
 ## yok deploy Heroku 💜
-The easy way to host this bot, deploy to Heroku
+Cara mudah untuk meng-host bot ini, gunakan ke Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadDimas12/HalawaMusic)
 
