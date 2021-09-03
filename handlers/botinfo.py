@@ -9,7 +9,7 @@ f"""
 **󠁧󠁢󠁥󠁮󠁧󠁿✨ {BOT_NAME} information panel ✨ \n
 💭 as you know, zen music is a telegram music bot project for streaming music on telegram voice chat group feature.\n
 💠 zen music project was founded on March 23, 2021, we created a music bot project for streaming on telegram voice chat, which is now known as veez music bot.\n
-🧪 veez music version:
+🧪 zen music version:
 ❍ ver.6.0
 ❍ beta-version \n
 👩🏻‍💻 developer:
