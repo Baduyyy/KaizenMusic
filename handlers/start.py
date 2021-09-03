@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>☢️ **Welcome tod {message.from_user.first_name}** \n
-🕳️ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅɪ ɢʀᴏᴜᴘ ꜱᴀʟᴜʀᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ !**
+🔰 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅɪ ɢʀᴏᴜᴘ ꜱᴀʟᴜʀᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ !**
 
 ☣️ **ᴋᴇʟɪᴋ ɢᴀᴍʙᴀʀ ʙᴜᴋᴜ » 📚 ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴꜰᴏ ʟᴇʙɪʜ ʟᴀɴᴊᴜᴛ !**
 
@@ -46,16 +46,16 @@ async def start_(client: Client, message: Message):
                         "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "☣️ ᴄᴏᴍᴍᴀɴᴅꜱ", url="https://telegra.ph/ZEN-MUSIC-09-03"
+                        "⚜️ ᴄᴏᴍᴍᴀɴᴅꜱ", url="https://telegra.ph/ZEN-MUSIC-09-03"
                     ),
                     InlineKeyboardButton(
                         "☢️ ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "☣️ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "♦️ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "☢️ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}" 
+                        "🀄 ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}" 
                     )
                 ]
             ]
@@ -70,15 +70,15 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **bot is running**\n<b>☣️ **uptime:**</b> `{uptime}`""",
+        f"""✅ **bot is running**\n<b>🌈 **uptime:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "☢️ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "♦️ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "☯️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🀄 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
@@ -88,12 +88,12 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>🕳️ Hello tod {message.from_user.mention()}, silakan ketuk tombol di bawah ini untuk melihat pesan bantuan yang dapat Anda baca untuk menggunakan bot ini</b>""",
+        f"""<b>🙋 Hello tod {message.from_user.mention()}, silakan ketuk tombol di bawah ini untuk melihat pesan bantuan yang dapat Anda baca untuk menggunakan bot ini</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="☯️ ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ", url=f"https://t.me/{BOT_USERNAME}?start=help"
+                        text="👻 ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ", url=f"https://t.me/{BOT_USERNAME}?start=help"
                     )
                 ]
             ]
@@ -153,15 +153,15 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "☣️ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "♦️ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "☢️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🀄 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "☯️ ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}"
+                        "♠️ ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}"
                     )
                 ]
             ]
@@ -175,8 +175,8 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "☣️ `PONG!!`\n"
-        f"☢️ `{delta_ping * 1000:.3f} ms`"
+        "🏓 `PONG!!`\n"
+        f"🔥 `{delta_ping * 1000:.3f} ms`"
     )
 
 
