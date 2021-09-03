@@ -51,7 +51,7 @@
 
 ## 🔎 Mendukung Pencarian Sebaris
 
-## Penempatan Heroku 💜
+## yok deploy Heroku 💜
 The easy way to host this bot, deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadDimas12/HalawaMusic)
