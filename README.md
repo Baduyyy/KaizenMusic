@@ -14,7 +14,7 @@
 
 🧪 Get STRING_SESSION from here:
 
- ➡️ @Hajigobaanggbot
+ ➡️@Hajigobaanggbot
 
 ## Bantuan ⛏️
 
