@@ -1,11 +1,11 @@
 <h2 align="centre">☣️ Halawa Music Bot</h2>
 
 ### Music bot for playing music on telegram voice chat group.
-<p align="center"><a href="https://t.me/VeezMusicBot"><img src="https://telegra.ph/file/8bf3d62837cb59c3f8e7f.png" width="300"></a></p>
+<p align="center"><a href="https://t.me/Hajigobangbot"><img src="https://telegra.ph/file/6447deaec9fc365cd6d1e.jpg" width="300"></a></p>
 
 </p>
 
-<h3>Requirements 📝</h3>
+<h3>Requirements 📖</h3>
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
@@ -58,4 +58,4 @@ The easy way to host this bot, deploy to Heroku
 
 
 ### Support & Updates 💌
-<a href="https://t.me/Update_Grouppp"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zenbijak"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Update_Grouppp"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zen_update"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
