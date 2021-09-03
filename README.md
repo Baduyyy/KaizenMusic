@@ -14,8 +14,7 @@
 
 🧪 Get STRING_SESSION from here:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@Update_Grouppp/StringSession#main.py)
-
+ ➡️@Hajigobaanggbot
 
 ## Bantuan ⛏️
 
