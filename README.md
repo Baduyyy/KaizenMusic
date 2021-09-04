@@ -53,8 +53,8 @@
 ## yok deploy Heroku 💜
 Cara mudah untuk meng-host bot ini, gunakan ke Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadDimas12/HalawaMusic)
+[![Deploy](https://www.herokucdn.com/deploy/blue.svg)](https://heroku.com/deploy?template=https://github.com/muhammadDimas12/HalawaMusic)
 
 
 ### Support & Updates 💌
-<a href="https://t.me/Update_Grouppp"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zen_update"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/kaizensupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zen_update"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
