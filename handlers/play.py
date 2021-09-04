@@ -520,7 +520,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺️ ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("🗑️ ᴄʟᴏꜱᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("⚙️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],
             ]
         )
@@ -567,7 +567,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺️ ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("🗑️ ᴄʟᴏꜱᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("⚙️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],
             ]
         )
@@ -588,28 +588,28 @@ async def play(_, message: Message):
           await lel.edit("**anda tidak memberikan judul lagu apapun !**")
         # veez project
         try:
-            toxxt = "🎵 __pilih lagu untuk dimainkan:__\n\n"
+            toxxt = "🎶 __pilih lagu untuk dimainkan:__\n\n"
             j = 0
             useer=user_name
-            emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣"]
+            emojilist = ["❶","❷","❸","❹","❺","❻"]
             while j < 6:
-                toxxt += f"{emojilist[j]} [{results[j]['title'][:20]}](https://youtube.com{results[j]['url_suffix']})\n"
-                toxxt += f" ╚ ⏰ **Duration** - {results[j]['duration']}\n"
-                toxxt += f" ╚ 👻 __Didukung oleh {BOT_NAME} A.I__\n\n"
+                toxxt += f"{emojilist[j]} **Title - [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})**\n"
+                toxxt += f" ╚ ⏳ **Duration** - {results[j]['duration']}\n"
+                toxxt += f" ╚ 👀 **Views** - {BOT_NAME} A.I__\n\n"
                 j += 1            
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("1️⃣", callback_data=f'plll 0|{query}|{user_id}'),
-                        InlineKeyboardButton("2️⃣", callback_data=f'plll 1|{query}|{user_id}'),
-                        InlineKeyboardButton("3️⃣", callback_data=f'plll 2|{query}|{user_id}'),
+                        InlineKeyboardButton("❶", callback_data=f'plll 0|{query}|{user_id}'),
+                        InlineKeyboardButton("❷", callback_data=f'plll 1|{query}|{user_id}'),
+                        InlineKeyboardButton("❸", callback_data=f'plll 2|{query}|{user_id}'),
                     ],
                     [
-                        InlineKeyboardButton("4️⃣", callback_data=f'plll 3|{query}|{user_id}'),
-                        InlineKeyboardButton("5️⃣", callback_data=f'plll 4|{query}|{user_id}'),
+                        InlineKeyboardButton("❹", callback_data=f'plll 3|{query}|{user_id}'),
+                        InlineKeyboardButton("❺", callback_data=f'plll 4|{query}|{user_id}'),
                     ],
                     [
-                        InlineKeyboardButton("6️⃣", callback_data=f'plll 5|{query}|{user_id}'),
+                        InlineKeyboardButton("❻", callback_data=f'plll 5|{query}|{user_id}'),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
                 ]
@@ -655,7 +655,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺️ ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("🗑️ ᴄʟᴏꜱᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("⚙️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],
             ]
             )
@@ -673,7 +673,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"🚬 **Judul:** [{title[:30]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
+            caption=f"🔖 **Judul:** [{title[:30]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
                    +f"🎧 **Permintaan:** {message.from_user.mention}",
             reply_markup=keyboard
         )
@@ -694,7 +694,7 @@ async def play(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption=f"🚬 **Judul:** [{title[:30]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** `Sedang Memutar`\n" \
+            caption=f"🔖 **Judul:** [{title[:30]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** `Sedang Memutar`\n" \
                    +f"🎧 **Permintaan:** {message.from_user.mention}",
             reply_markup=keyboard
         )
@@ -715,7 +715,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("anda bukan orang yang meminta untuk memutar lagu ini!", show_alert=True)
         return
-    #await cb.message.edit("🔁 **processing...**")
+    #await cb.message.edit("⏏️**Menghubungkan...**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -753,7 +753,7 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("⏺️ ᴍᴇɴᴜ", callback_data="menu"),
                     InlineKeyboardButton("🗑️ ᴄʟᴏꜱᴇ", callback_data="cls"),
                 ],[
-                    InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("⚙️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],
             ]
     )
@@ -774,7 +774,7 @@ async def lol_cb(b, cb):
         await cb.message.delete()
         await b.send_photo(chat_id,
         photo="final.png",
-        caption=f"🚬 **Judul:** [{title[:25]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
+        caption=f"🔖 **Judul:** [{title[:25]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** Antrian Ke `{position}`\n" \
                +f"🎧 **Permintaan:** {r_by.mention}",
         reply_markup=keyboard,
         )
@@ -794,7 +794,7 @@ async def lol_cb(b, cb):
         await cb.message.delete()
         await b.send_photo(chat_id,
         photo="final.png",
-        caption=f"🚬 **Judul:** [{title[:25]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** `Sedang Memutar`\n" \
+        caption=f"🔖 **Judul:** [{title[:25]}]({url})\n⏱ **Durasi:** {duration}\n💡 **Status:** `Sedang Memutar`\n" \
                +f"🎧 **Permintaan:** {r_by.mention}",
         reply_markup=keyboard,
         )
