@@ -63,7 +63,7 @@
 
 ### Credits ❤
 
-- **[Kaizen](https://github.com/muhammadDimas12): Dev    
+- **[Kaizen](https://github.com/muhammadDimas12)** (Dev)    
 - **[TG MUSICS](https://github.com/TG-Musics)** (Organization)
 - **Vivek** (Dev)
 - **Aswin Raj** (Helper)
