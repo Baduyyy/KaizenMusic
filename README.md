@@ -50,10 +50,12 @@
 
 ## 🔎 Mendukung Pencarian Sebaris
 
-## yok deploy Heroku 💜
-Cara mudah untuk meng-host bot ini, gunakan ke Heroku
+### Deploy To Heroku 📡</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/blue.svg)](https://heroku.com/deploy?template=https://github.com/muhammadDimas12/HalawaMusic)
+<p align="left">
+  <a href="https://heroku.com/deploy?template=https://github.com/muhammadDimas12/ZenMusic">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
 
 
 ### Support & Updates 💌
