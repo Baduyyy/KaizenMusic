@@ -1,4 +1,4 @@
-<h2 align="centre">☣️ Halawa Music Bot</h2>
+<h2 align="centre">☣️ Kaizen Music Bot</h2>
 
 *** Music bot yang dapat memutar di obrolan suara  group telegram anda.
 <p align="center"><a href="https://t.me/Hajigobangbot"><img src="https://telegra.ph/file/6447deaec9fc365cd6d1e.jpg" width="300"></a></p>
@@ -53,7 +53,7 @@
 *** Deploy To Heroku 📡</h4>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/muhammadDimas12/KaizenMusic">
+  <a href="https://heroku.com/deploy?template=https://github.com/Jancukmu/KaizenMusic">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
