@@ -14,7 +14,7 @@
 
 🧪 Get STRING_SESSION from here:
 
- ❌ELOR
+ https://replit.com/@Jancukmu/SpatialFailingBracket?v=1
 
 ** Bantuan ⛏️
 
