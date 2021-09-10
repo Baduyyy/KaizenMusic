@@ -14,7 +14,7 @@
 
 🧪 Get STRING_SESSION from here:
 
-(https://img.shields.io/badge/replit.com/@Jancukmu/SpatialFailingBracket?v=1
+TAP INI: [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@Jancukmu/StringSession#main.py)
 
 ** Bantuan ⛏️
 
