@@ -14,7 +14,7 @@
 
 🧪 Get STRING_SESSION from here:
 
- https://replit.com/@Jancukmu/SpatialFailingBracket?v=1
+(https://img.shields.io/badge/replit.com/@Jancukmu/SpatialFailingBracket?v=1
 
 ** Bantuan ⛏️
 
