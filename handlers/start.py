@@ -33,29 +33,29 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>❄️ **Welcome tod {message.from_user.first_name}** \n
-🔰 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅɪ ɢʀᴏᴜᴘ ꜱᴀʟᴜʀᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ !**
+✨ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅɪ ɢʀᴏᴜᴘ ꜱᴀʟᴜʀᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ !**
 
-☣️ **ᴋᴇʟɪᴋ ɢᴀᴍʙᴀʀ » ⚜️ ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴꜰᴏ ʟᴇʙɪʜ ʟᴀɴᴊᴜᴛ !**
+🌹 **ᴋᴇʟɪᴋ ɢᴀᴍʙᴀʀ » command ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴꜰᴏ ʟᴇʙɪʜ ʟᴀɴᴊᴜᴛ !**
 
-☢️ **ᴄᴀʀᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ᴋᴇᴛɪᴋ /help**
+🌻 **ᴄᴀʀᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ᴋᴇᴛɪᴋ /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "⚜️ ᴄᴏᴍᴍᴀɴᴅꜱ", url="https://telegra.ph/ZEN-MUSIC-09-03"
+                        "ᴄᴏᴍᴍᴀɴᴅꜱ", url="https://telegra.ph/ZEN-MUSIC-09-03"
                     ),
                     InlineKeyboardButton(
-                        "☢️ ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}")
+                        "ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "♦️ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🀄 ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}" 
+                        "ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}" 
                     )
                 ]
             ]
@@ -75,10 +75,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "♦️ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🀄 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
@@ -93,7 +93,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="👻 ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ", url=f"https://t.me/{BOT_USERNAME}?start=help"
+                        text="ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ", url=f"https://t.me/{BOT_USERNAME}?start=help"
                     )
                 ]
             ]
@@ -104,12 +104,12 @@ async def help(client: Client, message: Message):
 async def help_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hello {message.from_user.mention()}, welcome to help menu ✨
-\n☢️ ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ?
+\n🌹 ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ?
 \n1. pertama tambahkan saya ke grup Anda.
 2. promosikan saya sebagai admin dan berikan semua izin.
 3. kemudian, Tambahkan @{ASSISTANT_NAME} ke grup anda atau ketik /userbotjoin.
 3. pastikan Anda mengaktifkan obrolan suara terlebih dahulu sebelum mulai memutar musik.
-\n👻 **perintah untuk semua pengguna:**
+\n🌻 **perintah untuk semua pengguna:**
 \\n/play (nama lagu) - putar lagu dari youtube
 /stream (membalas audio) - memutar lagu menggunakan file audio
 /playlist - tampilkan daftar lagu dalam antrian
@@ -118,7 +118,7 @@ async def help_(client: Client, message: Message):
 /search (nama video) - cari video dari youtube secara mendetail
 /vsong (nama video) - download video dari youtube secara mendetail
 /vk (nama lagu) - unduh lagu dari mode inline
-\n👾 **perintah untuk admin:**
+\n✨ **perintah untuk admin:**
 \n/player - buka panel pengaturan pemutar musik
 /pause - menjeda streaming musik
 /resume - melanjutkan musik yang dijeda
@@ -130,7 +130,7 @@ async def help_(client: Client, message: Message):
 /auth - pengguna resmi untuk menggunakan bot musik
 /deauth - tidak sah untuk menggunakan bot musik
 /musicplayer (on / off) - nonaktifkan / aktifkan pemutar musik di grup Anda
-\n🎧 perintah streaming saluran:
+\n🌺 perintah streaming saluran:
 \n/cplay - streaming musik di obrolan suara saluran
 /cplayer - tampilkan lagu dalam streaming
 /cpause - jeda musik streaming
@@ -141,7 +141,7 @@ async def help_(client: Client, message: Message):
 \n🧙‍♂️ perintah untuk pengguna sudo:
 \n/userbotleaveall - perintahkan asisten untuk keluar dari semua grup
 /gcast - mengirim pesan siaran melalui asisten
-\n💀 **perintah untuk bersenang-senang:**
+\n👻 **perintah untuk bersenang-senang:**
 \n/lyric - (nama lagu) lirik scrapper
 /chika - periksa sendiri
 /wibu - cek sendiri
@@ -153,15 +153,15 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "♦️ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🀄 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "♠️ ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}"
+                        "ᴅᴇᴘᴇʟᴏᴠᴇʀ", url=f"https://t.me/{OWNER_NAME}"
                     )
                 ]
             ]
@@ -187,7 +187,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "💀 bot status:\n"
+        "🌹 bot status:\n"
         f"• **uptime:** `{uptime}`\n"
         f"• **start time:** `{START_TIME_ISO}`"
     )
