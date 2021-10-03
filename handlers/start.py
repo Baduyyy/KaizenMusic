@@ -35,9 +35,9 @@ async def start_(client: Client, message: Message):
         f"""<b>❄️ **Welcome tod {message.from_user.first_name}** \n
 ✨ **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅɪ ɢʀᴏᴜᴘ ꜱᴀʟᴜʀᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀɴᴅᴀ !**
 
-🌹 **ᴋᴇʟɪᴋ ɢᴀᴍʙᴀʀ » command ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴꜰᴏ ʟᴇʙɪʜ ʟᴀɴᴊᴜᴛ !**
+📚 **ᴋᴇʟɪᴋ ɢᴀᴍʙᴀʀ » command ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ɪɴꜰᴏ ʟᴇʙɪʜ ʟᴀɴᴊᴜᴛ !**
 
-🌻 **ᴄᴀʀᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ᴋᴇᴛɪᴋ /help**
+🌹 **ᴄᴀʀᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ᴋᴇᴛɪᴋ /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
@@ -104,12 +104,12 @@ async def help(client: Client, message: Message):
 async def help_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hello {message.from_user.mention()}, welcome to help menu ✨
-\n🌹 ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ?
+\n🎛️ ʙᴀɢᴀɪᴍᴀɴᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ꜱᴀʏᴀ ?
 \n1. pertama tambahkan saya ke grup Anda.
 2. promosikan saya sebagai admin dan berikan semua izin.
 3. kemudian, Tambahkan @{ASSISTANT_NAME} ke grup anda atau ketik /userbotjoin.
 3. pastikan Anda mengaktifkan obrolan suara terlebih dahulu sebelum mulai memutar musik.
-\n🌻 **perintah untuk semua pengguna:**
+\n📚 **perintah untuk semua pengguna:**
 \\n/play (nama lagu) - putar lagu dari youtube
 /stream (membalas audio) - memutar lagu menggunakan file audio
 /playlist - tampilkan daftar lagu dalam antrian
@@ -130,7 +130,7 @@ async def help_(client: Client, message: Message):
 /auth - pengguna resmi untuk menggunakan bot musik
 /deauth - tidak sah untuk menggunakan bot musik
 /musicplayer (on / off) - nonaktifkan / aktifkan pemutar musik di grup Anda
-\n🌺 perintah streaming saluran:
+\n📝 perintah streaming saluran:
 \n/cplay - streaming musik di obrolan suara saluran
 /cplayer - tampilkan lagu dalam streaming
 /cpause - jeda musik streaming
@@ -187,7 +187,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🌹 bot status:\n"
+        "🌈 bot status:\n"
         f"• **uptime:** `{uptime}`\n"
         f"• **start time:** `{START_TIME_ISO}`"
     )
