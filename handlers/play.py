@@ -588,14 +588,14 @@ async def play(_, message: Message):
           await lel.edit("**anda tidak memberikan judul lagu apapun !**")
         # veez project
         try:
-            toxxt = "🌻 __pilih lagu untuk dimainkan:__\n\n"
+            toxxt = "__pilih lagu untuk dimainkan:__\n\n"
             j = 0
             useer=user_name
             emojilist = ["❶","❷","❸","❹","❺","❻"]
             while j < 6:
                 toxxt += f"{emojilist[j]} **Title - [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})**\n"
-                toxxt += f" ~ ⏳<b>Duration</b>- {results[j]['duration']}\n"
-                toxxt += f" ~ 👀<b>Views</b> - {results[j]['views']}\n"
+                toxxt += f" ├ <b>Duration</b>- {results[j]['duration']}\n"
+                toxxt += f" ├ <b>Views</b> - {results[j]['views']}\n"
                 j += 1            
             keyboard = InlineKeyboardMarkup(
                 [
@@ -715,7 +715,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("anda bukan orang yang meminta untuk memutar lagu ini!", show_alert=True)
         return
-    await cb.message.edit("⏏️**Menghubungkan...**")
+    await cb.message.edit("🔁**Menghubungkan...**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
